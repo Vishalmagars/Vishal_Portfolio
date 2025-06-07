@@ -63,7 +63,7 @@ const AboutMe = () => {
           src="/path-to-your-image.jpg"
           alt="Vishal Magar"
           className="absolute inset-0 w-full h-full object-cover"
-          onError={(e) => (e.target.src = 'src/assets/hero2.jpeg')}
+          onError={(e) => (e.target.src = 'https://i.ibb.co/r2XRnG4x/hero2.jpg')}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 opacity-10 mix-blend-screen"></div>
       </motion.div>
