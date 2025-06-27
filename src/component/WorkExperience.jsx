@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
+
+
 const workData = [
   {
     id: '1',
@@ -13,6 +15,17 @@ const workData = [
     image: 'https://i.ibb.co/JgYB0N9/lic.png',
     liveDemoLink: 'https://rushikesh-aher.netlify.app/',
     viewMoreLink: '#',
+  },
+   {
+    id: '2',
+   title: 'Salon Management System',
+    // company: 'TechCorp Solutions',
+    duration: 'June 2025',
+     description: 'Created a full-stack web application to streamline salon operations, supporting role-based access for admins, staff, and users',
+    technologies: ['Java', 'Spring Boot', 'Spring Security', 'REST API', 'React.js', 'MongoDB', 'Maven', 'Git'],
+    image: 'https://i.ibb.co/JwK0KdFX/neva-s-bearuty.png',
+    // liveDemoLink: '#',
+    // viewMoreLink: '#',
   },
 ];
 
